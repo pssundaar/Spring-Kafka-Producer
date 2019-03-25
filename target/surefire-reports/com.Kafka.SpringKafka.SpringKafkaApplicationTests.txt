@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.Kafka.SpringKafka.SpringKafkaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.977 s <<< FAILURE! - in com.Kafka.SpringKafka.SpringKafkaApplicationTests
+contextLoads(com.Kafka.SpringKafka.SpringKafkaApplicationTests)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection
+
+contextLoads(com.Kafka.SpringKafka.SpringKafkaApplicationTests)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection
+
